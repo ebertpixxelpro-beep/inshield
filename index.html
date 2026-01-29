@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Inshield - Platform All-in-One untuk bisnis SaaS Anda. Kelola pendapatan, pembayaran, dan keuangan dengan mudah.">
+    <meta name="keywords" content="Inshield, SaaS, Fintech, Payment Gateway, Keuangan Bisnis, Dashboard">
+    <meta name="author" content="Inshield Team">
+    <title>Inshield - The New Way to Shop and Pay</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <div class="logo-icon me-2"><i class="fas fa-shield-alt"></i></div>
+                <span class="brand-text">inshield</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Galeri</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    
+                    <a href="https://wa.me/6281234567890?text=Halo%20Dokter,%20saya%20ingin%20konsultasi%20mengenai%20keluhan%20saya" class="btn btn-primary btn-cta" target="_blank">Konsultasi</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-text text-center text-lg-start mb-5 mb-lg-0">
+                    <h1 class="display-4 fw-bold mb-3">The New Way to <br> Shop <span class="text-icon">🛍️</span> and
+                        Pay <span class="text-icon">💳</span></h1>
+                    <p class="lead text-muted mb-4">Inshield is the in-one platform for running your SaaS business. So
+                        you can focus on more revenue and less headache.</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+                        <a href="#" class="btn btn-primary btn-lg btn-cta">Get Started <i
+                                class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="#" class="btn btn-outline-secondary btn-lg btn-cta-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image position-relative">
+                    <div class="image-wrapper">
+                        <!-- Image will be placed here -->
+                        <img src="hero_dashboard_mockup.png" alt="Inshield Dashboard"
+                            class="img-fluid floating-animation">
+                    </div>
+                    <!-- Decorative Elements -->
+                    <div class="deco-card card-1 floating-delayed">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-box bg-success-subtle text-success me-3 rounded-circle p-2">
+                                <i class="fas fa-arrow-up"></i>
+                            </div>
+                            <div>
+                                <small class="text-muted d-block">Total Income</small>
+                                <span class="fw-bold">$32,848.98</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-img-wrapper">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <div
+                                    class="stats-card bg-dark text-white p-4 rounded-4 h-100 d-flex flex-column justify-content-center">
+                                    <h2 class="display-5 fw-bold text-primary">120+</h2>
+                                    <p class="mb-0">Countries Covered</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div
+                                    class="bg-light p-4 rounded-4 h-100 d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-globe-americas fa-4x text-muted opacity-25"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="text-uppercase text-primary fw-bold mb-2">Tentang Kami</h6>
+                    <h2 class="section-title mb-4">Membangun Masa Depan Keuangan Digital</h2>
+                    <p class="text-muted mb-4">Inshield hadir untuk mempermudah transaksi bisnis Anda dengan teknologi
+                        mutakhir. Kami menyediakan solusi pembayaran yang aman, cepat, dan terintegrasi untuk berbagai
+                        jenis usaha.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex align-items-start">
+                            <span class="icon-check me-3"><i class="fas fa-check"></i></span>
+                            <div>
+                                <h5 class="fw-bold h6">Keamanan Terjamin</h5>
+                                <p class="small text-muted mb-0">Enkripsi tingkat lanjut untuk setiap transaksi.</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <span class="icon-check me-3"><i class="fas fa-check"></i></span>
+                            <div>
+                                <h5 class="fw-bold h6">Integrasi Mudah</h5>
+                                <p class="small text-muted mb-0">Kompatibel dengan berbagai platform e-commerce.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Layanan -->
+    <section id="services" class="section-padding bg-light-green">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-uppercase text-primary fw-bold">Layanan Kami</h6>
+                <h2 class="section-title">Solusi Lengkap untuk Bisnis Anda</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card p-4 h-100 bg-white shadow-sm rounded-4">
+                        <div class="icon-box-lg mb-4 bg-primary-subtle text-primary rounded-3">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Powerful Technology</h4>
+                        <p class="text-muted">Dashboard otomatis melacak kekayaan bersih Anda, mengatur pajak, dan
+                            memproyeksikan arus kas.</p>
+                        <a href="#" class="link-primary text-decoration-none fw-medium">Learn More <i
+                                class="fas fa-arrow-right small"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card p-4 h-100 bg-white shadow-sm rounded-4">
+                        <div class="icon-box-lg mb-4 bg-warning-subtle text-warning rounded-3">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Powerful Integration</h4>
+                        <p class="text-muted">Lakukan lebih banyak dengan sedikit kode. Terhubung dengan alat favorit
+                            Anda secara otomatis.</p>
+                        <div class="integration-icons mt-3">
+                            <i class="fab fa-slack fa-lg me-2 text-muted"></i>
+                            <i class="fab fa-google fa-lg me-2 text-muted"></i>
+                            <i class="fab fa-dropbox fa-lg text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card p-4 h-100 bg-white shadow-sm rounded-4">
+                        <div class="icon-box-lg mb-4 bg-info-subtle text-info rounded-3">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Expert Advice</h4>
+                        <p class="text-muted">Dapatkan tim ahli keuangan, pajak, dan investasi yang berdedikasi untuk
+                            membantu Anda.</p>
+                        <a href="#" class="link-primary text-decoration-none fw-medium">Talk to Expert <i
+                                class="fas fa-arrow-right small"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Mid -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row align-items-center bg-dark text-white rounded-5 p-5 mx-0">
+                <div class="col-lg-7">
+                    <h2 class="fw-bold mb-3">Siap Mengelola Keuangan Anda?</h2>
+                    <p class="lead opacity-75 mb-4">Bergabunglah dengan ribuan bisnis yang telah mempercayai Inshield.
+                    </p>
+                    <a href="#" class="btn btn-primary btn-lg">Daftar Sekarang</a>
+                </div>
+                <div class="col-lg-5 text-center mt-4 mt-lg-0">
+                    <i class="fas fa-rocket fa-8x text-primary opacity-50"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-uppercase text-primary fw-bold">Produk</h6>
+                <h2 class="section-title">Produk untuk Berbagai Kebutuhan</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="product-item text-center">
+                        <div class="product-icon mb-3">
+                            <img src="security_shield_3d_icon.png" class="img-fluid rounded-circle" alt="Personal"
+                                style="width: 100px; height: 100px; object-fit: contain;">
+                        </div>
+                        <h4 class="fw-bold">Personal</h4>
+                        <p class="text-muted small">Kelola pendapatan, lacak pengeluaran, dan atur pajak dalam satu
+                            tempat.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item text-center">
+                        <div class="product-icon mb-3">
+                            <img src="product_smb_shop_icon.png" class="img-fluid rounded-circle" alt="Small Business"
+                                style="width: 100px; height: 100px; object-fit: contain;">
+                        </div>
+                        <h4 class="fw-bold">Small Business</h4>
+                        <p class="text-muted small">Alat pembukuan otomatis untuk melacak penjualan dan pergerakan
+                            bisnis.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item text-center">
+                        <div class="product-icon mb-3">
+                            <img src="product_enterprise_building_icon.png" class="img-fluid rounded-circle"
+                                alt="Enterprise" style="width: 100px; height: 100px; object-fit: contain;">
+                        </div>
+                        <h4 class="fw-bold">Enterprise</h4>
+                        <p class="text-muted small">Solusi kustom untuk volume transaksi besar dengan dukungan
+                            prioritas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Portfolio -->
+    <section id="gallery" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Galeri Aktivitas</h2>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-sm h-100">
+                        <img src="modern_office_team_collaborating.png" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Modern Office">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-sm h-100">
+                        <img src="gallery_meeting_room.png" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Focus Group Meeting">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-sm h-100">
+                        <img src="gallery_product_demo_tablet.png" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Fintech Analytics Demo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="section-title mb-4">Apa Kata Mereka?</h2>
+                    <p class="text-muted">Bergabunglah dengan 5,000+ orang yang puas menggunakan Inshield untuk
+                        kebutuhan finansial mereka.</p>
+                    <img src="customer_logos_strip.png" class="img-fluid opacity-75" alt="Customer Logos">
+                </div>
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm p-4 rounded-4 h-100">
+                                <div class="mb-3 text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="fst-italic mb-4">"Tim saya sangat menyukai aplikasi ini karena membuat kerja
+                                    tim keuangan jauh lebih cepat dan mudah."</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                                        style="width: 48px; height: 48px;">IT</div>
+                                    <div>
+                                        <h6 class="fw-bold mb-0">Italo T.</h6>
+                                        <small class="text-muted">CEO of TechStartup</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm p-4 rounded-4 h-100">
+                                <div class="mb-3 text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="fst-italic mb-4">"Segalanya berubah ketika saya menggunakan aplikasi ini.
+                                    Sangat keren dan cepat."</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                                        style="width: 48px; height: 48px;">MJ</div>
+                                    <div>
+                                        <h6 class="fw-bold mb-0">Maria J.</h6>
+                                        <small class="text-muted">Freelancer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-padding bg-light-green">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Pertanyaan Umum (FAQ)</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1">
+                                    Apakah data saya aman di Inshield?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Ya, keamanan adalah prioritas utama kami. Kami menggunakan enkripsi setara bank
+                                    untuk semua data dan transaksi Anda.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Berapa biaya berlangganan Inshield?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Beragam! Kami memiliki paket gratis untuk pemula dan paket premium untuk bisnis yang
+                                    sedang berkembang. Lihat halaman harga kami.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Apakah bisa diintegrasikan dengan bank lokal?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Tentu saja. Kami mendukung integrasi dengan sebagian besar bank besar di Indonesia
+                                    dan e-wallet.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action (Near Footer) -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <img src="inshield_logo_icon.png" alt="Inshield" class="mb-4" style="height: 80px;">
+                    <h2 class="display-6 fw-bold mb-3">Create Your Own Account Now</h2>
+                    <p class="lead text-muted mb-4">Buka akun dalam hitungan menit, bukan hari. Mulailah mengelola
+                        keuangan Anda dengan lebih cerdas.</p>
+                    <a href="#" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow-lg">Get Started <i
+                            class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section id="blog" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Berita Terbaru</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="news_freelancer_tax.png" class="card-img-top object-fit-cover"
+                            alt="Cara Mengelola Pajak Untuk Freelancer" style="height: 250px;">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary-subtle text-primary mb-2">Tips</span>
+                            <h5 class="card-title fw-bold">Cara Mengelola Pajak Untuk Freelancer</h5>
+                            <p class="card-text text-muted small">Panduan lengkap untuk mengatur perpajakan bagi pekerja
+                                lepas di tahun 2026.</p>
+                            <a href="blog-tax.html" class="fw-bold text-decoration-none text-primary">Baca
+                                Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More items would go here for brevity -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="news_multicurrency_global.png" class="card-img-top object-fit-cover"
+                            alt="Integrasi Multi-Currency" style="height: 250px;">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary-subtle text-primary mb-2">Update</span>
+                            <h5 class="card-title fw-bold">Fitur Baru: Integrasi Multi-Currency</h5>
+                            <p class="card-text text-muted small">Inshield kini mendukung transaksi dalam lebih dari 50
+                                mata uang asing.</p>
+                            <a href="blog-currency.html" class="fw-bold text-decoration-none text-primary">Baca
+                                Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="news_business_summit.png" class="card-img-top object-fit-cover"
+                            alt="Inshield Summit 2026" style="height: 250px;">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary-subtle text-primary mb-2">Event</span>
+                            <h5 class="card-title fw-bold">Inshield Summit 2026</h5>
+                            <p class="card-text text-muted small">Bergabunglah dengan konferensi fintech terbesar tahun
+                                ini di Jakarta.</p>
+                            <a href="blog-summit.html" class="fw-bold text-decoration-none text-primary">Baca
+                                Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer-custom pt-5 pb-4">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a class="d-flex align-items-center text-decoration-none mb-4" href="#">
+                        <div class="logo-icon me-2 text-primary"
+                            style="background: white; padding: 5px; border-radius: 8px;"><i
+                                class="fas fa-shield-alt"></i></div>
+                        <span class="brand-text text-white">inshield</span>
+                    </a>
+                    <p class="text-white opacity-75 mb-4">Platform finansial terpercaya untuk membantu bisnis Anda
+                        berkembang lebih cepat dan aman.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h6 class="text-white fw-bold mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">About Us</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="blog.html" class="text-white opacity-75 text-decoration-none">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h6 class="text-white fw-bold mb-3">Products</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Personal</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Business</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Enterprise</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h6 class="text-white fw-bold mb-3">Use Cases</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Agencies</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Freelancers</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Startups</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h6 class="text-white fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Help Center</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Contact Us</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white opacity-75 text-decoration-none">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-top border-secondary opacity-25 my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="small text-white opacity-50 mb-0">&copy; 2026 Inshield Inc. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline small mb-0">
+                        <li class="list-inline-item"><a href="#"
+                                class="text-white opacity-50 text-decoration-none">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="#"
+                                class="text-white opacity-50 text-decoration-none ms-3">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <a href="https://wa.me/yournumber" class="btn-floating-wa" target="_blank" aria-label="Chat via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="#" class="btn-back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
