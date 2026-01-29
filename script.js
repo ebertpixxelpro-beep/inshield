@@ -33,7 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Close mobile menu if open
                 const navbarCollapse = document.getElementById('navbarContent');
                 if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-                    const bsCollapse = new bootstrap.Collapse(navbarCollapse);
+                    // Use Bootstrap 5 API to safely get instance
+                    const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse, { toggle: false });
                     bsCollapse.hide();
                 }
 

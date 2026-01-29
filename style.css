@@ -140,6 +140,38 @@ h6 {
     }
 }
 
+/* Page Headers (Subpages) */
+.page-hero {
+    padding-top: 140px;
+    /* Clear fixed navbar + space */
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+    .page-hero {
+        padding-top: 110px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .page-hero img {
+        margin-top: 30px;
+        max-height: 300px;
+        /* Limit height on mobile */
+        width: auto;
+        max-width: 100%;
+        object-fit: contain;
+        /* Don't crop important hero images */
+    }
+
+    .page-hero .row {
+        flex-direction: column;
+        /* Ensure text comes first usually, or respect HTML order but stack */
+    }
+}
+
 .hero-image .image-wrapper {
     position: relative;
     z-index: 2;
@@ -484,10 +516,15 @@ h6 {
 
     .navbar-collapse {
         background: white;
-        padding: 20px;
         border-radius: 12px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         margin-top: 10px;
+        overflow: hidden;
+        /* Clean animation */
+    }
+
+    .navbar-collapse .navbar-nav {
+        padding: 20px;
     }
 }
 
